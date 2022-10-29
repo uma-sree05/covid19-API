@@ -1,1 +1,30 @@
-GET http://localhost:3004/
+GET http://localhost:3001/states
+
+####
+##GET STATE BASED ON ID
+GET http://localhost:3001/states/3
+
+####
+###POST STATE
+POST http://localhost:3001/districts/
+
+#####
+#GET DISTRICT BASED ON ID
+GET http://localhost:3001/districts/322
+
+###
+#DELETE DISTRICT
+DELETE http://localhost:3001/districts/300
+
+####
+#UPDATE DISTRICT
+PUT http://localhost:3001/districts/322
+
+###
+#GET STATISTICS OF STATE
+GET http://localhost:3001/states/3/stats
+
+####
+#GET STATE NAME
+GET http://localhost:3001/districts/322/details/
+
